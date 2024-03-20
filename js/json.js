@@ -46,6 +46,8 @@ function showTopFlavors(jsonObj) {
         // STEP 10e: build HTML elements for the content
         let article =document.createElement("article");
         let h2 =document.createElement("h2");
+        let h3 = document.createElement("h3");
+        let h4 = document.createElement("h4");
         let image =document.createElement("img");
         let ul =document.createElement("ul");
         // STEP 10f: Set the textContent property for each of the above elements (except the UL), based on the JSON content
@@ -63,6 +65,8 @@ function showTopFlavors(jsonObj) {
         console.log(ul);
         // STEP 10h: Append each of the above HTML elements to the ARTICLE element
         article.appendChild(h2);
+        article.appendChild(h3);
+        article.appendChild(h4);
         article.appendChild(image);
         article.appendChild(ul);
         console.log(article);
