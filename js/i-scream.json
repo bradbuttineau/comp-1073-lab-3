@@ -25,6 +25,29 @@
         "clover honey"
       ],
       "image" : "peach-mango.svg"
+    },
+    {
+      "name" : "Chocolate",
+      "calories" : 400,
+      "type" : "ice cream",
+      "ingredients" : [
+        "dark chocolate chips",
+        "white chocolate"
+        
+      ],
+      "image" : "images/ice-cream-xtra1.svg"
+    }
+    {
+      "name" : "Rocky Road",
+      "calories" : 350,
+      "type" : "ice cream",
+      "ingredients" : [
+        "dark chocolate chips",
+        "vanilla extract",
+        "white chocolate"
+        
+      ],
+      "image" : "images/ice-cream-xtra2.svg"
     }
   ]
 }
